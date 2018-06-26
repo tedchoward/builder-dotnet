@@ -2,7 +2,7 @@
 
 ORG=tedchoward
 APP_NAME=builder-dotnet
-VERSION=1.0.0
+VERSION=1.0.1
 
 docker build -t docker.io/$ORG/$APP_NAME:${VERSION} .
 docker push docker.io/$ORG/$APP_NAME:${VERSION}
